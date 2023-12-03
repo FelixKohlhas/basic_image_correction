@@ -24,23 +24,23 @@ B - 02(fld 01 wv TexasRed - TexasRed wix 7).tif
 ### Result
 ```
 Match 1
-    Column	02
-    Field	01
+    Column  02
+    Field   01
     Row     B
-    Channel	Cy5
-    Wix	    4
+    Channel Cy5
+    Wix     4
 Match 2
-    Column	02
-    Field	01
+    Column  02
+    Field   01
     Row     B
-    Channel	Cy5
-    Wix	    8
+    Channel Cy5
+    Wix     8
 Match 3
-    Column	02
-    Field	01
-    Row	    B
-    Channel	DAPI
-    Wix	    1
+    Column  02
+    Field   01
+    Row     B
+    Channel DAPI
+    Wix     1
 ...
 ```
 
