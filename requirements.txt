@@ -1,0 +1,6 @@
+basicpy
+scikit-image
+pandas
+numpy
+matplotlib
+PyYAML

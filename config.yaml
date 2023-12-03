@@ -1,0 +1,5 @@
+regex: '^(?P<Row>[A-P]) - (?P<Column>[0-9]*)\(fld (?P<Field>[0-9]*) wv (?P<Channel>[^ ]*) .* wix (?P<Wix>[0-9]*)\).tif'
+groupby:
+  - 'Field'
+  - 'Channel'
+  - 'Wix'
