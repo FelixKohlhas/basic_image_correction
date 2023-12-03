@@ -29,7 +29,7 @@ python basic_image_correction.py [--config CONFIG_PATH] directory_path directory
 ## Configuration
 The script supports a configuration file in YAML format. An example `config.yaml` file is provided. It can include parameters such as `regex`, `groupby`, `workers`, and `batch_size`.
 
-The most important setting is the `regex` parameter. It should be a Regular Expression that matches the relevant properties from filenames into capture groups. The script will then use these properties to group the images. More information about this can be found in [REGEX.md](REGEX.md)
+The most important setting is the `regex` parameter. It should be a [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression) that matches the relevant properties from filenames into capture groups. The script will then use these properties to group the images. More information about this can be found in [REGEX.md](REGEX.md)
 
 ## Output
 The corrected images and flatfield images are saved in the specified output directories.
