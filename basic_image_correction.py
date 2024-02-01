@@ -61,7 +61,7 @@ def process_images_in_batches(images, batch_size, process_function):
         batch_size = len(images)
     for i in range(0, len(images), batch_size):
         # print(f'Processing batch: {i} - {i + batch_size}')
-        yield process_function(images[i:i + batch_size])
+        yield process_function(images[i:min(i + batch_size, len(images))])
 
 def main():
     args = parse_arguments()
